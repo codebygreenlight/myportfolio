@@ -19,44 +19,47 @@ function About() {
       <div className="article-content">
         <div className="article-text">
           <p className="lead-paragraph">
-            Hey there! 👋 I'm Olawale, a passionate frontend developer who's on an exciting 
-            journey of turning caffeine into code and bugs into features (well, most of the time).
+            Ẹ nlẹ o! 👋 I'm Olawale, your friendly neighborhood developer from the 
+            giant of Africa! Currently turning my love for jollof rice and coding 
+            into amazing web experiences.
           </p>
 
           <p className="article-paragraph">
-            Currently navigating the vast ocean of web development, armed with React and a 
-            determination to learn something new every day. You could say I'm like a sponge, 
-            but instead of water, I'm absorbing JavaScript and occasionally wondering why my 
-            console.log() is my best friend.
+            As a Nigerian developer, I bring that unique "never say die" spirit to 
+            every project. From debugging code with the persistence of a Lagos 
+            traffic survivor to crafting user interfaces smoother than agege bread, 
+            I'm all about that tech life! My journey in tech has been as exciting 
+            as a Nigerian wedding - full of learning, growth, and plenty of "aha!" 
+            moments.
           </p>
 
           <p className="article-paragraph">
-            As an entry-level developer, I'm that curious kid in the candy store of coding – 
-            everything looks exciting, and I want to try it all! From battling with CSS 
-            (sometimes it wins, but I'm getting better) to diving into AI integration, 
-            I'm building my path one commit at a time. Sure, Stack Overflow might be my 
-            most visited website, but hey, that's how we all learn, right?
+            Just like how we Nigerians always find a way (you know what I mean 😉), 
+            I'm navigating through the tech space with determination and creativity. 
+            Whether it's React components or API integrations, I approach each challenge 
+            with that Nigerian resourcefulness we're famous for. And yes, Stack Overflow 
+            is my second home, right after my VS Code workspace!
           </p>
 
           <blockquote className="article-quote" cite="https://dev.olawale.com/about">
-            "They say Rome wasn't built in a day, and neither is a bug-free code. 
-            But I'm here for the journey, learning and growing with every line of code!"
+            "In Nigeria, we say 'No gree for anybody!' That's exactly how I approach 
+            coding - no bug too difficult, no feature impossible. We move! 🚀"
           </blockquote>
 
           <p className="article-paragraph">
-            When I'm not googling error messages or celebrating the small victories 
-            (like when my code works on the first try – rare but magical moments), 
-            you'll find me exploring new technologies, contributing to open-source 
-            projects, or explaining coding concepts to my rubber duck debugger. 
-            Because sometimes the best way to learn is to teach, even if your student 
-            is made of rubber!
+            When I'm not cooking up clean code (or actual jollof), you'll find me 
+            contributing to the tech community, sharing knowledge with fellow developers, 
+            or explaining to my mom that no, I can't fix her phone's WhatsApp just 
+            because I'm a developer! 😄 I'm passionate about using technology to solve 
+            real African problems and showing the world that Nigerian developers are 
+            world-class.
           </p>
         </div>
 
         <div className="article-image">
           <img 
             src={profileImage} 
-            alt="Olawale - Frontend Developer passionate about coding and learning new technologies" 
+            alt="Olawale - Nigerian Frontend Developer passionate about coding and building solutions" 
             className="grayscale-image"
             loading="lazy"
             width="500"
@@ -67,7 +70,7 @@ function About() {
             }}
           />
           <p className="image-caption">
-            Me, turning coffee into code, one bug at a time
+            Debugging with the energy of someone who just had their morning pap! 💪🏾
           </p>
         </div>
       </div>

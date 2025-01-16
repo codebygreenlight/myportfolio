@@ -1,38 +1,27 @@
 function Projects() {
   const projects = [
     {
-      name: "AI Code Assistant",
-      tech: ["React", "OpenAI", "Node.js"],
+      name: "Verdalix Tech Landing Page",
+      tech: ["React", "Javascript", "Node.js"],
       description: "An intelligent coding assistant that helps developers write better code faster. Integrates with popular IDEs and provides real-time suggestions.",
       longDescription: "Built with modern architecture and best practices, this AI-powered code assistant helps developers increase their productivity. Features include real-time code suggestions, bug detection, and automated code reviews.",
-      github: "https://github.com/yourusername/project1",
+      github: "https://github.com/codebygreenlight/verdalixtech",
       preview: "https://your-live-demo-url.com",
-      image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=800&h=600",
+      image: "verdalix.png",
       role: "Lead Developer",
-      duration: "3 months"
+      duration: "1 month"
     },
     {
-      name: "Modern Portfolio",
+      name: "DevOlawale Portfolio",
       tech: ["React", "Vite", "TailwindCSS"],
       description: "A modern portfolio website with clean design and smooth animations. Features responsive layout and dark mode support.",
       longDescription: "A newspaper-inspired portfolio that showcases developer projects in a unique and engaging way. Built with performance and accessibility in mind, featuring smooth animations and responsive design.",
-      github: "https://github.com/yourusername/project2",
-      preview: "https://your-portfolio-url.com",
-      image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600",
+      github: "https://github.com/codebygreenlight/myportfolio",
+      preview: "https://myportfolio-sandy-one.vercel.app/",
+      image: "devolawale.png",
       role: "Frontend Developer",
       duration: "2 months"
     },
-    {
-      name: "AI Image Generator",
-      tech: ["React", "OpenAI", "TailwindCSS"],
-      description: "Generate unique images using AI. Features custom styling options and social sharing capabilities.",
-      longDescription: "An innovative image generation platform that leverages OpenAI's DALL-E API to create unique and customizable images. Users can specify styles, themes, and modify generated images in real-time.",
-      github: "https://github.com/yourusername/project3",
-      preview: "https://your-image-gen-url.com",
-      image: "https://images.unsplash.com/photo-1551033406-611cf9a28f67?w=800&h=600",
-      role: "Full Stack Developer",
-      duration: "4 months"
-    }
   ]
 
   return (
