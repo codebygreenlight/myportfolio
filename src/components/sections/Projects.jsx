@@ -3,8 +3,8 @@ function Projects() {
     {
       name: "Verdalix Tech Landing Page",
       tech: ["React", "Javascript", "Node.js"],
-      description: "An intelligent coding assistant that helps developers write better code faster. Integrates with popular IDEs and provides real-time suggestions.",
-      longDescription: "Built with modern architecture and best practices, this AI-powered code assistant helps developers increase their productivity. Features include real-time code suggestions, bug detection, and automated code reviews.",
+      description: "A tech company landing page with a clean design and smooth animations. Features responsive layout.",
+      longDescription: "Built with modern architecture and best practices, this tech company landing page is designed to showcase the company's services and products in a professional and engaging way. Features include a clean design, smooth animations, and responsive layout.",
       github: "https://github.com/codebygreenlight/verdalixtech",
       preview: "https://your-live-demo-url.com",
       image: "verdalix.png",
@@ -14,13 +14,24 @@ function Projects() {
     {
       name: "DevOlawale Portfolio",
       tech: ["React", "Vite", "TailwindCSS"],
-      description: "A modern portfolio website with clean design and smooth animations. Features responsive layout and dark mode support.",
+      description: "A modern portfolio website with clean design and smooth animations. Features responsive layout.",
       longDescription: "A newspaper-inspired portfolio that showcases developer projects in a unique and engaging way. Built with performance and accessibility in mind, featuring smooth animations and responsive design.",
       github: "https://github.com/codebygreenlight/myportfolio",
       preview: "https://myportfolio-sandy-one.vercel.app/",
       image: "devolawale.png",
       role: "Frontend Developer",
-      duration: "2 months"
+      duration: "3 weeks"
+    },
+    {
+      name: "Gadgets Store",
+      tech: ["React", "Vite", "TailwindCSS"],
+      description: "A Gadgets Store website with a clean design and smooth animations. Features responsive layout and payment gateway.",
+      longDescription: "A phone store website built with React, TailwindCSS, and Vite. It features detailed product pages, a shopping cart, and a secure payment gateway. The site is designed to be responsive and user-friendly, with a focus on providing a seamless shopping experience.",
+      github: "https://github.com/codebygreenlight/greenlightgadgets",
+      preview: "https://greenlightgadgets.vercel.app/",
+      image: "greengadgets.png",
+      role: "Frontend Developer",
+      duration: "1 month"
     },
   ]
 
