@@ -1,10 +1,14 @@
+import Typewriter from '../Typewriter'
+
 function Hero() {
   return (
     <div className="hero-section">
       <div className="headline-block">
         <h1 className="headline">
           Crafting Digital Experiences
-          <span className="headline-accent">One Line of Code at a Time</span>
+          <span className="headline-accent">
+            <Typewriter text="One Line of Code at a Time" speed={100} />
+          </span>
         </h1>
         <p className="subheadline">
           Frontend Developer & AI Enthusiast

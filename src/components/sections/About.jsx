@@ -1,4 +1,5 @@
 import profileImage from '/images/pass.png'
+import Typewriter from '../Typewriter'
 
 function About() {
   const currentDate = new Date().toLocaleDateString('en-US', {
@@ -19,7 +20,10 @@ function About() {
       <div className="article-content">
         <div className="article-text">
           <p className="lead-paragraph">
-            Ẹ nlẹ o! 👋 I'm Olawale, your friendly neighborhood developer from the 
+            <span className="greeting">
+              <Typewriter text="Ẹ nlẹ o!" speed={150} /> 
+            </span>
+            {" "}👋 I'm Olawale, your friendly neighborhood developer from the 
             giant of Africa! Currently turning my love for jollof rice and coding 
             into amazing web experiences.
           </p>
