@@ -25,7 +25,7 @@ function Navbar({ activeSection, setActiveSection }) {
             </button>
           ))}
           <a 
-            href="mailto:your.email@example.com" 
+            href="mailto:olawaleadebesin@gmail.com" 
             className="hire-me-btn"
           >
             Hire Me
